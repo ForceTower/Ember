@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Application" parent="Theme.BaseApplication">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+    <style name="Theme.Application.Main">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">@bool/not_on_night_mode</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+</resources>
