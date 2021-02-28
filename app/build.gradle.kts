@@ -63,7 +63,7 @@ dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:1.1.5")
     implementation(Libs.KOTLIN_STDLIB)
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(project(":toolkit"))
+//    implementation(project(":toolkit"))
 
     implementation(Libs.CORE_KTX)
 

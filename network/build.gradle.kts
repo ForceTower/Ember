@@ -47,6 +47,8 @@ dependencies {
     implementation(Libs.RETROFIT)
     implementation(Libs.RETROFIT_GSON)
 
+    implementation(Libs.GSON)
+
     // Tests
     testImplementation(Libs.JUNIT)
     androidTestImplementation(Libs.ANDROID_JUNIT)

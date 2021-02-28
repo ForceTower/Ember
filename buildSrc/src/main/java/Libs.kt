@@ -27,6 +27,7 @@ object Libs {
     const val ROOM_KTX = "androidx.room:room-ktx"
     const val ROOM_RUNTIME = "androidx.room:room-runtime"
     const val ROOM_COMPILER = "androidx.room:room-compiler"
+    const val GSON = "com.google.code.gson:gson"
 
 
 

@@ -20,6 +20,7 @@ val glide = "4.12.0"
 val glideTransformations = "4.1.0"
 val room = "2.3.0-beta02"
 val coroutines = "1.3.9"
+val gson = "2.8.6"
 
 val junit = "4.13.2"
 val androidJUnit = "1.1.2"
@@ -55,6 +56,7 @@ dependencies {
         api("${Libs.ROOM_RUNTIME}:$room")
         api("${Libs.ROOM_COMPILER}:$room")
         api("${Libs.COROUTINES}:$coroutines")
+        api("${Libs.GSON}:$gson")
 
         api("${Libs.JUNIT}:$junit")
         api("${Libs.ANDROID_JUNIT}:$androidJUnit")

@@ -1,11 +1,10 @@
-include(":network")
-include(":data")
 include (
     ":dependencies",
     ":toolkit",
     ":model",
     ":database",
+    ":network",
+    ":data",
     ":app"
 )
-project(":toolkit").projectDir = File(rootDir, "android-toolkit/toolkit")
 rootProject.name = "Ember"
