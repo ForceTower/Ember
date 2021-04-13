@@ -4,7 +4,8 @@ include (
     ":model",
     ":database",
     ":network",
-    ":data",
+    ":domain",
     ":app"
 )
+project(":toolkit").projectDir = File(rootDir, "android-toolkit")
 rootProject.name = "Ember"

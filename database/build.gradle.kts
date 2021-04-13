@@ -55,6 +55,7 @@ dependencies {
     implementation(Libs.KOTLIN_STDLIB)
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(project(":model"))
+    implementation(project(":toolkit"))
 
     // Android X
     implementation(Libs.CORE_KTX)

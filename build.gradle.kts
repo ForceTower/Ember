@@ -4,7 +4,6 @@ buildscript {
         google()
         jcenter()
         maven("https://plugins.gradle.org/m2/")
-        maven("http://oss.sonatype.org/content/repositories/snapshots")
     }
     dependencies {
         classpath("com.android.tools.build:gradle:${Versions.ANDROID_GRADLE_PLUGIN}")
@@ -21,7 +20,6 @@ allprojects {
         google()
         jcenter()
         maven("https://plugins.gradle.org/m2/")
-        maven("http://oss.sonatype.org/content/repositories/snapshots")
         maven("https://jitpack.io")
     }
 }

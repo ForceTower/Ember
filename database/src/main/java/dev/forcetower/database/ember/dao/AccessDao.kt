@@ -2,8 +2,8 @@ package dev.forcetower.database.ember.dao
 
 import androidx.room.Dao
 import androidx.room.Query
-import dev.forcetower.database.base.BaseDao
 import dev.forcetower.model.unes.Access
+import dev.forcetower.toolkit.database.dao.BaseDao
 
 @Dao
 abstract class AccessDao : BaseDao<Access>() {

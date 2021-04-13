@@ -3,8 +3,8 @@ plugins {
 }
 
 val appcompat = "1.1.0"
-val core = "1.5.0-beta01"
-val hiltJetPack = "1.0.0-alpha03"
+val core = "1.5.0-rc01"
+val hiltJetPack = "1.0.0-beta01"
 val hilt = Versions.HILT
 val swipeRefresh = "1.1.0"
 val constraintLayout = "2.0.4"
@@ -12,13 +12,13 @@ val material = "1.3.0"
 val recyclerView = "1.2.0-beta02"
 val fragment = "1.3.0"
 val viewPager2 = "1.0.0"
-val paging = "3.0.0-beta01"
+val paging = "3.0.0-beta02"
 val timber = "4.7.1"
 val okhttp = "4.9.0"
 val retrofit = "2.9.0"
 val glide = "4.12.0"
 val glideTransformations = "4.1.0"
-val room = "2.3.0-beta02"
+val room = "2.3.0-beta03"
 val coroutines = "1.3.9"
 val gson = "2.8.6"
 
